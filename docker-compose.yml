@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  dev:
+    image: "espressif/idf-rust-examples:latest"
+    volumes:
+      - ./projects:/projects
+    environment:
+      - USER=dhillon
